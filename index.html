@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        
+    }
+    body{
+
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'poppins', sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(2, 2, 44);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(183, 183, 235);
+        font-size: 1.1rem;
+    }
+
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 9vh 0;
+    }
+    .firstSection >Div{
+        width: 30%;
+     }
+
+    .leftSection{
+       font-size: 2.3rem;
+       
+    }
+    .leftSection .button{
+        padding: 45px 0;
+    }
+    .leftSection .btn{
+     padding: 12px;
+     background: #171842;
+     border-radius: 6px;
+     border: 2px solid white;
+     font-size: 14px;
+     cursor: pointer;
+     color: white;
+    }
+
+    .rightSection img{
+       width: 80%;
+       margin: 80px 0;
+    }
+
+    .purple{
+        color: rgb(162, 102, 219);
+    }
+    #element{
+        color: rgb(162, 102, 219);
+    }
+   
+    main hr{
+        border: 0;
+        height: 1.2px;
+        margin: 36px 84px;
+        background-color: rgb(118, 118, 199);
+    }
+
+    .SecondSection hr{
+        font-size: 1.5rem;
+    }
+     .SecondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    .text-gray{
+        color: rgb(118, 118, 199);
+    }
+    .SecondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 46px 0;
+        display: flex;
+    }
+    .SecondSection h1{
+        font-size: 1.9rem;
+    }
+    
+    .SecondSection .vertical{
+        height: 93px;
+        width: 1px;
+        margin: 0 180px ;
+        background-color: white;
+    }
+    .vertical-title{
+        position: relative;
+        top: 100px;
+        width: 150px;
+        font-size: 14px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: 130px;
+        width: 150px;
+        color: gray;
+        font-size: 0.9rem;
+    }
+    footer{
+        background-color: rgb(27, 27, 59);
+        height: 230px;
+    }
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+    .footer ul{
+        list-style: none;
+        text-decoration: none;  
+    }
+    .footercm ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    
+    
+    .footer > div{
+        width: 123px;
+    }
+    .footer-text-center{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+   
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Jayesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li> 
+                    <li><a href="/">About</a></li> 
+                    <li><a href="/">Services</a></li> 
+                    <li><a href="/">Projects</a></li> 
+                    <li><a href="/">Contact Me</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Jayesh</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <Button class="btn">Download Resume</Button>
+                    <Button class="btn">Visit GutHub</Button>
+                </div>
+            </div>
+            <div class="rightSection">
+
+                <img src="Images/PngItem_1127587.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1> Work Experience </h1>
+            <div class="box">
+                    <div class="vertical">
+                        <div class="vertical-title">
+                            Data Science Intern
+                            <span>{6 week}</span>
+                        </div> 
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt a repellendus iste recusandae odit?
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="vertical-title">
+                            Web Developer intern
+                            <span>{4 week}</span> 
+                        </div> 
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, vel.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="vertical-title">
+                            Python Developer Intern
+                            <span>{3 Month}</span>
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, vel.
+                        </div>
+                    </div>
+                    
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Jayesh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second footercm">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third footercm">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth footercm footercm">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-text-center">
+            Copyright &copy; www.jayeshportfolio.com || All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', ' Python Developer', 'Software Tester', "Web Designer", 'Linux expert'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
